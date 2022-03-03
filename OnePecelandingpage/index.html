@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./image/chapeu.ico">
+    <title>Explore One Piece</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Página Inicial</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#news">Notícias</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="menu-mobile">
+            <ul>
+           <li><a href="#home">Página Inicial</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#news">Notícias</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="menu_btn">
+            <img src="image/btn4.png" alt="">
+        </div>
+    </header>
+
+    <main id="home">
+        <div class="container">
+            <div class="content">
+                <h1>Explore esse Mundo:</h1>
+
+                <p>One Piece é uma série de mangá escrita e ilustrada por Eiichiro Oda.
+                    One Piece conta as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido uma fruta do diabo acidentalmente. 
+                    Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o próximo Rei dos Piratas.</p>
+                <button>Entre nessa jornada</button>
+            </div>
+        </div>
+    </main>
+
+    <section id="about">
+        <div class="container">
+            <h2>10</h2>
+            <p>Companheiros</p>
+            <h1>Seja um Nakama</h1>
+            <div class="call">
+                <div class="left">
+                    Nakama [仲間] é uma palavra japonesa composta dos ideogramas [仲] que significa relacionamento e [間] que significa espaço ou tempo.
+                     Ou seja, essa palavra refere-se a algum tipo de relacionamento que você tem a algum tempo ou por algum intervalo.
+                </div>
+                <div class="right">
+                   "Eu não sei usar espadas, não sei navegar, também não sei cozinhar e não sei mentir,
+                    o que eu sei, é que dependo dos meus amigos se quiser continuar vivendo!"
+                   Monkey D. Luffy!
+                </div>
+            </div>
+            <img src="image/bg-2.png" alt="">
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <div class="left">
+                <h2>02</h2>
+                <p>Noticias</p>
+                <h1>Fique Ligado em One Piece</h1>
+                <span>One Piece é lancado quase toda semana, sendo na sexta lancado o manga e no domingo o anime.!</span>
+            </div>
+            <div class="right">
+                <h3>Março/2022</h3>
+                <div class="box">
+                    <div class="data">
+                        <span>Mar.</span>
+                        <p>04</p>
+                    </div>
+                    <div class="info">
+                        <span>Capitulo 1042</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <span>Mar.</span>
+                        <p>06</p>
+                    </div>
+                    <div class="info">
+                        <span>Episodio 1006</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <span>Mar.</span>
+                        <p>10</p>
+                    </div>
+                    <div class="info">
+                        <span>Capitulo 1043</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="center">
+                <h2>03</h2>
+                <p>A aventura nos espera</p>
+                <h1>Junte-se a nós nesta jornada!!</h1>
+           
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Copyright 1997-2022 <a href="#">Maikel Grutzmann </a> rigth reserved</span>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".menu_btn").click(function(){
+                $(".menu-mobile").slideToggle("slow")
+            })
+        })
+    </script>
+</body>
+</html>
